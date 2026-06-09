@@ -5,7 +5,6 @@ import { YourfeedPage } from '../pages/FeedPage'
 import {generateUser} from '../helpers/userFactory'
 
 
-// todo при добавлении нового теста, данные будут использованы те же самые
 const URL = 'https://realworld.qa.guru/';
 
 

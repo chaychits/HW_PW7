@@ -8,9 +8,7 @@ import { generateArticle} from '../helpers/articleFactory';
 import { ArticlePage } from '../pages/ArticlePage'
 
 
-// todo при добавлении нового теста, данные будут использованы те же самые
 const URL = 'https://realworld.qa.guru/';
-
 
 function getUrl () {
     return URL;

@@ -3,6 +3,7 @@ export class EditArticlePage {
         // это браузер
         this.page = page;
         // здесь мы описываем техническую реализацию страницы
+        
         // здесь все про элементы
         
         this.titleInput = page.getByRole('textbox', { name: 'Article Title' });

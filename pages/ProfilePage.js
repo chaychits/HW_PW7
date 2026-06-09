@@ -4,8 +4,8 @@
         this.page = page;
 
         // здесь мы описываем техническую реализацию страницы
-        // здесь все про элементы
         
+        // здесь все про элементы
         this.dropDownlist = page.getByText(/.+/).filter({ has: page.locator('img') });
         this.logOutDropDown =  page.getByRole('link', { name: 'Logout' });
         this.profileDropDown = page.getByRole('link', { name: 'Profile' });

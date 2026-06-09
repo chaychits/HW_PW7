@@ -4,13 +4,13 @@ export class YourfeedPage {
         this.page = page;
 
         // здесь мы описываем техническую реализацию страницы
+        
         // здесь все про элементы
         this.profileName = page.getByRole('navigation');
         this.newArticleLink = page.getByRole('link', {name: 'New Article'});
         this.articleNotAvailable = page.locator('.article-preview')
         this.buttonGlobalFeed = page.getByRole('button', { name: ' Global Feed' });
         this.articles = page.locator('h1');
-        
     }
 
         // Бизнес-сценарии на страничке

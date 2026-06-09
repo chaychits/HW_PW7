@@ -3,6 +3,7 @@ export class ArticlePage {
         // это браузер
         this.page = page;
         // здесь мы описываем техническую реализацию страницы
+        
         // здесь все про элементы
         this.newArticle = page.getByRole('heading', { level: 1 });
         this.deleteArticleButton = page.getByRole('button', {name: ' Delete Article'}).first();
