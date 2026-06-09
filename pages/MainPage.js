@@ -1,0 +1,14 @@
+export class MainPage {
+    constructor (page) {
+        // это браузер
+        this.page = page;
+        // здесь мы описываем техническую реализацию страницы
+        // здесь все про элементы
+        this.signupButton = page.getByRole('link', { name: 'Sign up' });
+    }
+
+        // Бизнес-сценарии на страничке
+        async openSignUpPage(){
+        await this.signupButton.click();
+        }
+}
