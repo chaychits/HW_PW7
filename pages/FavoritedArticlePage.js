@@ -5,7 +5,6 @@ constructor(page) {
     this.favoritesLink = page.getByRole('link', { name: 'Favorited Articles' });
     this.articles = page.locator('.article-preview');
     this.favoriteArticle = page.locator('.article-preview h1').first();
-    
 }
 
     async openFavorites() {

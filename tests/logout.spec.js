@@ -6,9 +6,7 @@ import {generateUser} from '../helpers/userFactory'
 import { ProfilePage } from '../pages/ProfilePage'
 
 
-// todo при добавлении нового теста, данные будут использованы те же самые
 const URL = 'https://realworld.qa.guru/';
-
 
 function getUrl () {
     return URL;

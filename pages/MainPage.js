@@ -3,6 +3,7 @@ export class MainPage {
         // это браузер
         this.page = page;
         // здесь мы описываем техническую реализацию страницы
+        
         // здесь все про элементы
         this.signupButton = page.getByRole('link', { name: 'Sign up' });
     }

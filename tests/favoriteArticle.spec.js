@@ -8,9 +8,7 @@ import { ProfilePage } from '../pages/ProfilePage'
 import { ProfileFavoritesPage } from '../pages/FavoritedArticlePage'
 
 
-// todo при добавлении нового теста, данные будут использованы те же самые
 const URL = 'https://realworld.qa.guru/';
-
 
 function getUrl () {
     return URL;

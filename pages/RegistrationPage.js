@@ -3,13 +3,12 @@ export class RegistrationPage {
         // это браузер
         this.page = page;
         // здесь мы описываем техническую реализацию страницы
-        // здесь все про элементы
 
+        // здесь все про элементы
         this.emailInput = page.getByRole('textbox', { name: 'Email' });
         this.passwordInput = page.getByRole('textbox', { name: 'Password' });
         this.yournameInput = page.getByRole('textbox', { name: 'Your Name' });
         this.signupButton = page.getByRole('button', { name: 'Sign up' });
-
     }
 
     // Бизнес-сценарии на страничке
